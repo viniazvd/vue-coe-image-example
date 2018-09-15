@@ -1,10 +1,12 @@
 <template>
-  <div id="#app">
+  <div id="#app" class="app">
+    <h3>open the network in the browser to see dynamic image loading</h3>
     <vue-coe-image
+      class="coe"
       :src="src"
       fallback="https://cdn-images-1.medium.com/max/1600/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
     />
-    <button @click="changeImage">coe</button>
+    <button class="coe" @click="changeImage">coe</button>
   </div>
 </template>
 
@@ -27,3 +29,16 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.app {
+  position: relative;
+  height: 2000px;
+}
+.coe {
+  position: absolute;
+  bottom: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+</style>
