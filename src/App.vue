@@ -11,8 +11,8 @@
 </template>
 
 <script>
-// import VueCoeImage from 'vue-coe-image'
-import VueCoeImage from './lib'
+import VueCoeImage from 'vue-coe-image'
+// import VueCoeImage from './lib'
 
 export default {
   components: { VueCoeImage },
