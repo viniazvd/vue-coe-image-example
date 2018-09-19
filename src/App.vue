@@ -11,14 +11,15 @@
 </template>
 
 <script>
-import VueCoeImage from 'vue-coe-image'
+// import VueCoeImage from 'vue-coe-image'
+import VueCoeImage from './lib'
 
 export default {
   components: { VueCoeImage },
 
   data () {
     return {
-      src: 'https://3.bp.blogspot.com/-PRG407gZ9bE/V0TCSHFQKcI/AAAAAAAADjE/KbkLmxIXcjMcx4hKTFnDSQxcdPqGuNNWwCLcB/s1600/flamengologo.png'
+      src: 'https://i.ytimg.com/vi/Yt9t9e9gmmw/maxresdefault.jpg'
     }
   },
 

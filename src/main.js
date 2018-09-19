@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import 'vue-coe-image/dist/vue-coe-image.css'
+// import 'vue-coe-image/dist/vue-coe-image.css'
 // import { VueCoeImage } from 'vue-coe-image'
 
 // Vue.use(VueCoeImage)
