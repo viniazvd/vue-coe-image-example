@@ -6,20 +6,13 @@
       :src="src"
       fallback="https://vignette.wikia.nocookie.net/undertale-rho/images/5/5f/Placeholder.jpg/revision/latest?cb=20180213155916"
     />
-
-    <oee
-      class="coe2"
-      src="https://img.freepik.com/free-photo/man-jumping-over-impossible-or-possible-over-cliff-on-sunset-background-business-concept-idea_1323-266.jpg?size=338&ext=jpg"
-      placeholder="https://vignette.wikia.nocookie.net/undertale-rho/images/5/5f/Placeholder.jpg/revision/latest?cb=20180213155916"
-    />
     <button class="coe" @click="changeImage">coe</button>
   </div>
 </template>
 
 <script>
-// import VueCoeImage from 'vue-coe-image'
-import VueCoeImage from './lib'
-import oee from './lib/oee.vue'
+import VueCoeImage from 'vue-coe-image'
+// import VueCoeImage from './lib'
 
 export default {
   components: { VueCoeImage, oee },
@@ -29,12 +22,6 @@ export default {
       src: 'https://image.shutterstock.com/image-photo/business-success-leadership-achievement-people-260nw-411972601.jpg'
     }
   },
-
-  // mounted () {
-  //   setTimeout(() => {
-  //     this.src = 'https://pbs.twimg.com/profile_images/1017516299143041024/fLFdcGsl_400x400.jpg'
-  //   }, 2000)
-  // },
 
   methods: {
     changeImage () {
