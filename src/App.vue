@@ -15,7 +15,7 @@ import VueCoeImage from 'vue-coe-image'
 // import VueCoeImage from './lib'
 
 export default {
-  components: { VueCoeImage, oee },
+  components: { VueCoeImage },
 
   data () {
     return {

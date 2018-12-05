@@ -3,8 +3,9 @@ import App from './App.vue'
 
 import 'vue-coe-image/dist/vue-coe-image.css'
 // import { VueCoeImage } from 'vue-coe-image'
+import { VueCoeImage } from './lib'
 
-// Vue.use(VueCoeImage)
+Vue.use(VueCoeImage)
 
 Vue.config.productionTip = false
 
